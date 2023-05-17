@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6196E512A100D8B0006B4B0 /* SceneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6196E502A100D8B0006B4B0 /* SceneApp.swift */; };
+		D6196E552A100D8B0006B4B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6196E542A100D8B0006B4B0 /* ContentView.swift */; };
+		D6196E582A100D8B0006B4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6196E562A100D8B0006B4B0 /* Main.storyboard */; };
+		D6196E5A2A100D8C0006B4B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6196E592A100D8C0006B4B0 /* Assets.xcassets */; };
+		D6196E5D2A100D8C0006B4B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6196E5B2A100D8C0006B4B0 /* LaunchScreen.storyboard */; };
+		D6196E732A1507AF0006B4B0 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D6196E702A1010220006B4B0 /* Earth.usdz */; };
+		D6196E742A1507B60006B4B0 /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D6196E712A1010220006B4B0 /* Jupiter.usdz */; };
+		D6196E752A1507C10006B4B0 /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D6196E722A1010220006B4B0 /* Mars.usdz */; };
+		D6196E762A1507C70006B4B0 /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D6196E6E2A1010220006B4B0 /* Pluto.usdz */; };
+		D6196E772A1507CF0006B4B0 /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D6196E6F2A1010220006B4B0 /* Venus.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6196E4D2A100D8B0006B4B0 /* Planetarium 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planetarium 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6196E502A100D8B0006B4B0 /* SceneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneApp.swift; sourceTree = "<group>"; };
+		D6196E542A100D8B0006B4B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6196E572A100D8B0006B4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6196E592A100D8C0006B4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6196E5C2A100D8C0006B4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6196E6E2A1010220006B4B0 /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pluto.usdz; sourceTree = "<group>"; };
+		D6196E6F2A1010220006B4B0 /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		D6196E702A1010220006B4B0 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		D6196E712A1010220006B4B0 /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		D6196E722A1010220006B4B0 /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6196E4A2A100D8B0006B4B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6196E442A100D8B0006B4B0 = {
+			isa = PBXGroup;
+			children = (
+				D6196E4F2A100D8B0006B4B0 /* Planetarium 3D */,
+				D6196E4E2A100D8B0006B4B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6196E4E2A100D8B0006B4B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6196E4D2A100D8B0006B4B0 /* Planetarium 3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6196E4F2A100D8B0006B4B0 /* Planetarium 3D */ = {
+			isa = PBXGroup;
+			children = (
+				D6196E6D2A1010050006B4B0 /* Objects */,
+				D6196E502A100D8B0006B4B0 /* SceneApp.swift */,
+				D6196E542A100D8B0006B4B0 /* ContentView.swift */,
+				D6196E562A100D8B0006B4B0 /* Main.storyboard */,
+				D6196E592A100D8C0006B4B0 /* Assets.xcassets */,
+				D6196E5B2A100D8C0006B4B0 /* LaunchScreen.storyboard */,
+			);
+			path = "Planetarium 3D";
+			sourceTree = "<group>";
+		};
+		D6196E6D2A1010050006B4B0 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D6196E702A1010220006B4B0 /* Earth.usdz */,
+				D6196E712A1010220006B4B0 /* Jupiter.usdz */,
+				D6196E722A1010220006B4B0 /* Mars.usdz */,
+				D6196E6E2A1010220006B4B0 /* Pluto.usdz */,
+				D6196E6F2A1010220006B4B0 /* Venus.usdz */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6196E4C2A100D8B0006B4B0 /* Planetarium 3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6196E602A100D8C0006B4B0 /* Build configuration list for PBXNativeTarget "Planetarium 3D" */;
+			buildPhases = (
+				D6196E492A100D8B0006B4B0 /* Sources */,
+				D6196E4A2A100D8B0006B4B0 /* Frameworks */,
+				D6196E4B2A100D8B0006B4B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Planetarium 3D";
+			productName = "Planetarium 3D";
+			productReference = D6196E4D2A100D8B0006B4B0 /* Planetarium 3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6196E452A100D8B0006B4B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D6196E4C2A100D8B0006B4B0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = D6196E482A100D8B0006B4B0 /* Build configuration list for PBXProject "Planetarium 3D" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6196E442A100D8B0006B4B0;
+			productRefGroup = D6196E4E2A100D8B0006B4B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6196E4C2A100D8B0006B4B0 /* Planetarium 3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6196E4B2A100D8B0006B4B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6196E752A1507C10006B4B0 /* Mars.usdz in Resources */,
+				D6196E772A1507CF0006B4B0 /* Venus.usdz in Resources */,
+				D6196E732A1507AF0006B4B0 /* Earth.usdz in Resources */,
+				D6196E762A1507C70006B4B0 /* Pluto.usdz in Resources */,
+				D6196E742A1507B60006B4B0 /* Jupiter.usdz in Resources */,
+				D6196E5D2A100D8C0006B4B0 /* LaunchScreen.storyboard in Resources */,
+				D6196E5A2A100D8C0006B4B0 /* Assets.xcassets in Resources */,
+				D6196E582A100D8B0006B4B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6196E492A100D8B0006B4B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6196E552A100D8B0006B4B0 /* ContentView.swift in Sources */,
+				D6196E512A100D8B0006B4B0 /* SceneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6196E562A100D8B0006B4B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6196E572A100D8B0006B4B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6196E5B2A100D8C0006B4B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6196E5C2A100D8C0006B4B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6196E5E2A100D8C0006B4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6196E5F2A100D8C0006B4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6196E612A100D8C0006B4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sophienguyen.Planetarium-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6196E622A100D8C0006B4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sophienguyen.Planetarium-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6196E482A100D8B0006B4B0 /* Build configuration list for PBXProject "Planetarium 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6196E5E2A100D8C0006B4B0 /* Debug */,
+				D6196E5F2A100D8C0006B4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6196E602A100D8C0006B4B0 /* Build configuration list for PBXNativeTarget "Planetarium 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6196E612A100D8C0006B4B0 /* Debug */,
+				D6196E622A100D8C0006B4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6196E452A100D8B0006B4B0 /* Project object */;
+}
